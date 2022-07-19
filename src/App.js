@@ -9,6 +9,7 @@ function App() {
   const [menuItems, setMenuItems] = useState(items);
   const [categories] = useState(allCategories);
 
+  //function to filter categories on click
   const filterItems = (category) => {
     if (category === 'all') {
       setMenuItems(items);
